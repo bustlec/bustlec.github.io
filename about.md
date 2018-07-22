@@ -3,28 +3,67 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<hr>
+
+<p class="message" style>
+  Hey there! I'm Bustle C. Currently working as full-stack developer. 
+  This is a place to share my knowledge and experience on web development.
+  I built this blog using Github pages, Jekyll and the Lanyon theme.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<hr>
+<!-- github-calendar start -->
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 
-## Setup
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data ...
+</div>
 
-Some fun facts about the setup of this project include:
+<script>
+    GitHubCalendar(".calendar", "bustlec");
+</script>
+<!-- github-calendar end -->
+<hr>
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## Education
+
+* M.S. Computer Science and Engineering, National Sun Yatsen University, Kaohsiung, Taiwan, 2014 – 2016
+* B.S. Information Engineering and Computer Science, Feng Chia University, Taichung, Taiwan, 2008 – 2012
+
+## Experience
+
+* Software Engineer at DrayTek HQ, Sep 2016 - Present
+
+    Responsibilities:
+    - Involved in the development of software for Draytek ACS server integration platform.
+    - Participate in the entire software engineering cycle of requirement analysis, design, development and test.
+    - Developed several features: 
+      Network topology visualization, External User Authentication, Wireless Client Data Forwarding Scheme, Switch Syslog Integration, ... etc.
+    <!-- - Involved in the understanding and designing of the complex back-end framework. -->
+    - Refactored back end architecture to make the system more flexible for future extenstions.
+    - Wrote the Junit Test Cases with Mockito for the web application.
+    - Familiar with TR069 protocol.
+    <!-- - Used Maven as a build tool, wrote the dependencies for the jars that needs to be migrated -->
+
+## Skills
+
+* Juery, Javascript, AngularJS
+* JAVA, Python
+
+## Awards
+
+* 2017 賴溪松教授論文獎碩士組 優等獎
+  * Certiﬁcateless Signature Scheme Achieving Highest-Level Security in the Standard Model
+
+
+Have questions or suggestions? Feel free to contact me.
 
 Thanks for reading!

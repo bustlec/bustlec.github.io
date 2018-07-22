@@ -32,7 +32,7 @@
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function(e) {
+        toggle.addEventListener('click', function(e) {
           var target = e.target;
 
           if(!checkbox.checked ||
@@ -43,5 +43,17 @@
         }, false);
       })(document);
     </script>
+
   </body>
 </html>
+<!-- <style>
+
+  .sidebar-toggle {
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .sidebar-toggle {
+      display: block;
+    }
+  }
+</style> -->
