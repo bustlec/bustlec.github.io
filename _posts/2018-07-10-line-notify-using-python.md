@@ -65,7 +65,7 @@ Send LINE Notifications using Python
 		# 修改為你的權杖內容
 		token = 'daaaaaaaaaaaaaaaadvmlsdvjowiesaifwjfklsdjl9ef'
 
-		lineNotify(token, message)
+		lineNotifyMessage(token, message)
 
 - 修改「權杖」和「訊息內容」完成後儲存檔案
 
