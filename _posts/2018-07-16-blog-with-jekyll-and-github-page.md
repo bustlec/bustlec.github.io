@@ -23,7 +23,7 @@ Find out more by [visiting the project on GitHub](https://github.com/mojombo/jek
 ### Step 1. Install Ruby and Bundler
 
 To use Jekyll, we need Ruby.
-First, Go to [Ruby](https://www.ruby-lang.org/en/downloads/) and download the installer for Ruby v2.3.1 that matches your system’s architecture (x86 / x64).
+First, Go to [Ruby](https://www.ruby-lang.org/en/downloads/) and download the installer for Ruby v3.2.2 that matches your system’s architecture (x86 / x64).
 
 Then, run the command to install Bundler
 
@@ -64,3 +64,7 @@ Then, View your website at **http://127.0.0.1:4000/**
 	
 
 
+## Reference
+
+- https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll
+- https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
